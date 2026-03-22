@@ -23,7 +23,7 @@ Station sequence:
 Pump activation → LED indicator → Weight check → Display result
 
 Simulation
-Built entirely in CoppeliaSim. The custom UI replaces physical sensor inputs — each button press triggers the same logic that a real sensor would in hardware.
+Built entirely in CoppeliaSim. The custom UI replaces physical sensor inputs — each button press triggers the same logic that a real sensor would in hardware. 
 
 What I took from this
 Simulation-first forces you to think through every state, every sensor input, every edge case before touching hardware. That process made the design much cleaner than jumping straight to building. Also got properly comfortable with CoppeliaSim's scripting environment.
